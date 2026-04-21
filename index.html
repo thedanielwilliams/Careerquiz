@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Role in Tech</title>
+    <meta name="description" content="Discover your ideal role in the tech industry with our interactive personality quiz.">
+    <!-- Google Fonts: Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-container">
+        <!-- Landing Section -->
+        <section id="landing-view" class="view active">
+            <div class="glass-panel">
+                <h1>Find Your Perfect Role in Tech</h1>
+                <p>Not sure where you fit in the tech world? Take this 13-question personality quiz to discover the path that matches your natural strengths. No coding required.</p>
+                <button id="start-btn" class="primary-btn">Start Quiz</button>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-view" class="view hidden">
+            <div class="glass-panel">
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="question-header">
+                    <span id="question-counter">Question 1/13</span>
+                </div>
+                <h2 id="question-text" class="question-text"></h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Result Section -->
+        <section id="result-view" class="view hidden">
+            <div class="glass-panel result-panel">
+                <h3 class="subtitle">Your perfect match</h3>
+                <h2 id="result-title" class="result-title"></h2>
+                <p id="result-desc" class="result-desc"></p>
+                
+                <div id="primary-cta-container">
+                    <!-- Injected primary link -->
+                </div>
+                <div id="secondary-cta-container" class="hidden">
+                    <!-- Injected secondary link -->
+                </div>
+                <button id="retake-btn" class="secondary-btn">Retake Quiz</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
