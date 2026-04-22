@@ -20,9 +20,9 @@ const questions = [
     {
         question: "What task would you happily lose track of time doing?",
         options: [
-            { text: "Defining the scope and timeline for a brand new feature.", type: "pm" },
+            { text: "Defining the scope and timeline for a brand new project.", type: "pm" },
             { text: "Resolving conflicting priorities to unblock a struggling team.", type: "pm" },
-            { text: "Focusing deeply on writing clean, elegant logic.", type: "dev" },
+            { text: "Focusing deeply on crafting clean, elegant solutions.", type: "dev" },
             { text: "Digging to find hidden trends in user behavior.", type: "data" }
         ]
     },
@@ -40,7 +40,7 @@ const questions = [
         options: [
             { text: "Interview experts and synthesize their knowledge into a plan.", type: "pm" },
             { text: "Organize exactly what you need to know and track your progress.", type: "pm" },
-            { text: "Read the technical documentation and start tinkering.", type: "dev" },
+            { text: "Read the manuals or guides and start tinkering.", type: "dev" },
             { text: "Play with datasets and visualize the outcomes.", type: "data" }
         ]
     },
@@ -95,7 +95,7 @@ const questions = [
             { text: "Launching a product without a clear strategy or success metrics.", type: "pm" },
             { text: "Unclear ownership causing important tasks to simply drop.", type: "pm" },
             { text: "Inconsistent styling and frustratingly clunky interfaces.", type: "design" },
-            { text: "Writing the exact same manual, repetitive code over and over.", type: "dev" }
+            { text: "Doing the exact same manual, repetitive tasks over and over.", type: "dev" }
         ]
     },
     {
@@ -121,7 +121,7 @@ const questions = [
 // Profile Content Mapping
 const profiles = {
     "pm": {
-        title: "Technical Project Manager",
+        title: "Project Manager",
         description: "You're built to lead projects — CAP is the programme that gets you there.",
         primaryCTA: {
             text: "Explore the CAP Programme",
@@ -131,8 +131,8 @@ const profiles = {
         secondaryCTA: null
     },
     "dev": {
-        title: "Developer",
-        description: "Your tribe is waiting — join people navigating tech just like you.",
+        title: "Builder / Maker",
+        description: "Your tribe is waiting — join people navigating their careers just like you.",
         primaryCTA: {
             text: "Join Thrive Tribe",
             link: "https://verisult.com/thrive-tribe",
@@ -145,7 +145,7 @@ const profiles = {
     },
     "design": {
         title: "Designer",
-        description: "Your tribe is waiting — join people navigating tech just like you.",
+        description: "Your tribe is waiting — join people navigating their careers just like you.",
         primaryCTA: {
             text: "Join Thrive Tribe",
             link: "https://verisult.com/thrive-tribe",
@@ -158,7 +158,7 @@ const profiles = {
     },
     "data": {
         title: "Data Analyst",
-        description: "Your tribe is waiting — join people navigating tech just like you.",
+        description: "Your tribe is waiting — join people navigating their careers just like you.",
         primaryCTA: {
             text: "Join Thrive Tribe",
             link: "https://verisult.com/thrive-tribe",
@@ -171,7 +171,7 @@ const profiles = {
     },
     "generalist": {
         title: "Generalist",
-        description: "Your tribe is waiting — join people navigating tech just like you.",
+        description: "Your tribe is waiting — join people navigating their careers just like you.",
         primaryCTA: {
             text: "Join Thrive Tribe",
             link: "https://verisult.com/thrive-tribe",
